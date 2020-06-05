@@ -1,0 +1,732 @@
+/***************************** Global section *****************************/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+
+.App {
+  margin: 20px 20px 20px 20px;
+}
+
+/***************************** NavBar section *****************************/
+
+/* NavBar */
+.bg-dark {
+  background-color: transparent;
+  margin-bottom: 3rem;
+  border-radius: .3rem;
+}
+
+/* Button toggle*/
+.navbar-toggler {
+  color: rgb(34, 28, 28);
+  border-color: transparent;
+  background: transparent;
+  cursor: pointer;
+  /*  FOR FIRST ANIMATION */
+  animation: first 2.5s ease forwards;
+  opacity:0;
+  animation-delay: 0.6s;
+}
+
+.navbar-light .navbar-brand{
+  font-family: 'Montserrat',sans-serif;
+  /*  FOR FIRST ANIMATION */
+  animation: first 2.5s ease forwards;
+  opacity:0;
+  animation-delay: 0.6s;
+}
+
+.navbar-nav {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    list-style: none;
+}
+
+.navbar-collapse {
+  flex-basis: 100%;
+  flex-grow: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+ .nav-link {
+  font-size: 20px;
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 1rem;
+  color: black;
+  font-family: 'Montserrat',sans-serif;
+  transition: all 0.5s ease;
+ /* FOR FIRST ANIMATION */
+  animation: first 2.5s ease forwards;
+  opacity:0;
+  animation-delay: 0.6s;
+}
+
+@keyframes first {
+  0%   {top: 0px; opacity:0;transform:translateX(0);}
+  100% {top: 0px; opacity:1; transform:translateX(auto);}
+}
+
+
+@media screen and (max-width:991px){
+.nav-link {
+     margin: 0px 100% 0px 0px;
+    padding-right: 1rem;
+    padding-left: 0;
+    /* border-radius: 3px; */
+    text-align: center;
+    width: 130px;
+    background: whitesmoke;
+    color: black;
+    opacity: .7;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.nav-link:hover {
+  color: rgb(223, 219, 219);
+  background: #415794f3;
+  transition: all 0.5s ease;
+}
+}
+
+@media screen and (min-width: 992px){
+
+.navbar-expand-lg .navbar-collapse {
+    display: flex!important;
+    flex-basis: auto;
+    justify-content: flex-end;
+}}
+
+@media (min-width: 992px){
+.nav-link {
+      padding-right: .5rem;
+      padding-left: .5rem;
+      font-size: 20px;
+  }
+}
+
+
+/***************************** Landing Page section *****************************/
+
+
+.jumbo-body {
+  flex-direction: column;
+  margin-bottom: 3rem;
+  border-radius: .3rem;
+  min-height: 750px;
+  background-image: url('/images/macos-fond-ecran-melange.jpg');
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding-top: 10px;
+  opacity: 0;
+  animation: mymove 1s ease forwards;
+  animation-delay: 0.5s;
+}
+
+@keyframes mymove {
+  0%   {top: 0px; opacity: 1;  width: 0px;}
+  100% {top: 0px; opacity: 1; width: 100%;}
+  }
+
+
+@media sceen and (min-width: 575px){
+  .jumbo-body {
+      padding: 1rem 2rem;
+  }
+  }
+  
+  .banner-text {
+    background-color: rgb(192, 188, 188);
+    width: 75%;
+    height: 250px;
+    margin: auto;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+     /* FOR FIRST ANIMATION */
+    animation: firstBanner 2.5s ease forwards;
+     opacity:0;
+    animation-delay: 0.6s;
+  }
+
+.lead {
+  display: flex;
+  justify-content: space-evenly;
+  width: 50%;
+  margin: 1em auto;
+   /* FOR FIRST ANIMATION */
+   animation: first 2.5s ease forwards;
+   opacity:0;
+   animation-delay: 0.6s;
+}
+
+.banner-title {
+
+  font-family: 'Montserrat',sans-serif;
+  font-size: 40px;
+  padding-top:2rem;
+  text-align: center;
+}
+
+.banner-text hr {
+  border-top: 1.5px solid rgb(14, 13, 13);
+  width: 50%;
+  margin: auto;
+
+}
+
+@keyframes first {
+  0%   {top: 0px; opacity:0;transform:translateX(0);}
+  100% {top: 0px; opacity:1; transform:translateX(auto);}
+}
+
+@keyframes firstBanner {
+  0%   {top: 0px; opacity:0;transform:translateX(0);}
+  100% {top: 0px; opacity:0.7; transform:translateX(auto);}
+}
+
+@media screen and (min-width: 368px) and (max-width: 600px){
+  .banner-text {
+    width: 100%;
+  }
+}
+
+
+.banner-text h2 {
+  color: black;
+   /* FOR FIRST ANIMATION */
+   animation: first 2.5s ease forwards;
+   opacity:0;
+   animation-delay: 0.6s;
+}
+
+.font-icon1, 
+.font-icon2,
+.font-icon3,
+.font-icon4 {
+  padding:8px;
+  font-size: 4em;
+  color: black;
+  cursor: pointer;
+  overflow: hidden;
+  transition: all 0.5s ease;
+   /* FOR FIRST ANIMATION */
+   animation: first 2.5s ease forwards;
+   opacity:0;
+   animation-delay: 0.6s;
+
+}
+
+.font-icon1:hover{
+  color: #0054a3;
+  transition: all 0.5s ease
+}
+
+
+.font-icon2:hover{
+  color: #5300b1;
+  transition: all 0.5s ease;
+}
+
+
+.font-icon3:hover{
+  color: #06ac00;
+  transition: all 0.5s ease
+}
+
+
+.font-icon4:hover{
+  color: #c23711;
+  transition: all 0.5s ease
+}
+
+/***************************** Projetcs section *****************************/
+
+.project{
+  height: fit-content;
+  margin-top: 3rem;
+}
+
+.project h2 {
+  font-family: 'Montserrat',sans-serif;
+  text-transform: uppercase;
+   font-weight:700;
+   text-align: center;
+}
+
+.project hr {
+  border-top:5px inset gray;
+  width: 25%;
+  margin: auto;
+  text-align: center;
+}
+
+.card-liste{
+  display: flex;
+  justify-content: center;
+  height: fit-content;
+  flex-flow: row wrap;
+  margin-top: 2.5em;
+  margin-bottom: 3rem;
+
+}
+
+.card-corps{
+  width: 400px;
+  height: 250px;
+  padding: 0;
+  border: 0.5px solid rgba(182, 182, 182, 0.657);
+  border-radius: 3px;
+  margin: 1.5rem 2rem 1.5rem 2rem;
+  transition: all 0.5s ease;
+  outline: none;
+}
+
+.card-corps:hover {
+  background: rgb(88, 88, 88);
+  transition: all 0.5s ease;
+  opacity: 0.5;
+}
+
+
+.card-corps img{
+  opacity: 1;
+  display: block;
+  border-radius: 3px;
+  position: absolute;
+  z-index: -1;
+  width: 399px;
+	height: 250px;
+}
+.card-content{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} 
+
+.card-text{
+  width: fit-content;
+}
+
+.card-text p {
+  color: rgb(27, 31, 36);
+  font-family:  'Montserrat',sans-serif;
+  text-transform: uppercase;
+  font-size: 25px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.card-text p:hover{
+  color: rgb(0, 0, 0);
+  transition: all 0.5s ease;
+}
+
+
+/******************************** SLIDESHOW and MODAL SECTION ****************************************/
+.modal-body p {
+  font-family: 'Montserrat',sans-serif;
+  margin: 15px 50px 10px 50px;
+}
+
+.modal-title{
+  font-family:'Montserrat',sans-serif;
+}
+.close {
+  text-shadow: 0 1px 0;
+}
+
+.close span {
+  color: gray;
+  transition: all 0.5s ease;
+}
+
+.close span:hover {
+  color: rgb(44, 44, 44);
+  transition: all 0.5s ease;
+}
+
+.containerSlide {
+  width: 450px;
+  margin: auto;
+  padding-top: 10px;
+
+}
+
+.containerSlide img {
+  height: 350px;
+  width: 100%;
+
+}
+
+.button-section {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.buttonGit {
+  border: 1px solid gray;
+  border-radius: 3px;
+  width: fit-content;
+  padding: 7px 7px 7px 7px;
+  transition: all 0.5s ease;
+  background: gray;
+  cursor: pointer;
+}
+
+.buttonGit:hover {
+  background: whitesmoke;
+  transition: all 0.5s ease;
+}
+
+.buttonGit a {
+  text-decoration: none;
+  color:whitesmoke;
+  transition: all 0.5s ease;
+  font-weight: 700;
+  font-family: 'Montserrat',sans-serif;
+}
+
+.buttonGit a:hover{
+  text-decoration: none;
+  transition: all 0.5s ease;
+  color: black;
+}
+
+/***************************** About me section *****************************/
+
+.contact-section {
+    padding-bottom: 4em; 
+    background: rgba(184, 176, 176, 0.705);
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+.contact-section h2 { 
+  font-family: 'Montserrat',sans-serif;
+  text-transform: uppercase;
+  font-weight: 900;
+  padding-top: 2rem;
+  text-align: center;
+}
+
+.contact-section hr {
+  border-top: 5px inset rgba(182, 182, 182, 0.657);
+  width: 25%;
+  margin: auto
+}
+
+.contact-body {
+  display: flex;
+  justify-content: center;
+  padding-top: 3rem;
+  position: relative;
+}
+
+.contact-body h2 {
+  font-family: 'Anton', sans-serif;
+  font-weight: bold;
+  color: #ccc;
+}
+
+.contact-body p {
+  font-family: 'Montserrat',sans-serif;
+  font-size: 20px;
+  color: rgb(51, 54, 56);
+}
+
+.contact-body p a {
+  color: rgb(51, 54, 56);
+  font-weight: bold;
+  text-decoration: none;
+  transition: all 0.5s ease;
+}
+
+.contact-body p a:hover {
+  color: rgba(235, 93, 50, 0.918);;
+  transition: all 0.5s ease;
+}
+/*************** Skill and tool sections ***************/
+
+.section-body {
+  width: 80%;
+  height: 400px;
+  margin: auto;
+  padding-top: 2rem;
+  
+}
+
+.skill-section,
+ .tool-section {
+  display: flex;
+  flex-flow: row ;
+  padding-top: 1rem;
+  list-style: none;
+  line-height: 1.25;
+  font-size: 1.15rem;
+  font-weight: 400;
+  margin: auto;
+  
+}
+
+.skill-section ul{
+  padding: 2rem 0px 0px 9rem;
+  width: 100%;
+  height: 100%;
+  list-style: none;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+
+}
+
+.tool-section ul {
+  padding: 2rem 0px 0px 14.1rem;
+  display: flex;
+  padding-top: 2rem;
+  width: 100%;
+  height: 100%;
+  list-style: none;
+  flex-flow: row wrap;
+  position: relative;
+}
+
+.skill-section ul li span {
+  font-size: 10px;
+  font-family: 'Montserrat',sans-serif;
+  color: rgb(51, 54, 56);
+}
+.skill-section li,
+.tool-section li {
+  padding: 15px 0px 15px 0px;
+  width: 30%;
+  position: relative;
+  font-family: 'Montserrat',sans-serif;
+  color: rgb(51, 54, 56);
+ }
+
+ .skill-section h3,
+.tool-section h3 {
+  font-family: 'Anton', sans-serif;
+  color: rgb(73, 103, 202);
+}
+ 
+
+ @media screen and (min-width: 368px) and (max-width: 767px) {
+  .section-body{
+    height: fit-content;
+  }
+}
+
+@media screen and (min-width: 368px) and (max-width: 600px){
+ .skill-section ul{
+   display: flex;
+   flex-direction: column;
+   padding: 3rem 0px 0px 0rem;
+ }
+}
+
+@media screen and (min-width: 600px) and (max-width: 767px){
+  .skill-section ul{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 0px 0px 5rem;
+  }
+ }
+
+@media screen and (min-width: 368px) and (max-width: 767px){
+   .tool-section ul{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 0px 0px 10rem;
+  }
+ }
+
+ @media screen and (min-width: 368px) and (max-width: 600px){
+  .tool-section ul{
+   display: flex;
+   flex-direction: column;
+   padding: 3rem 0px 0px 5rem;;
+   
+ }
+}
+
+@media screen and (min-width: 600px) and (max-width: 767px){
+  .tool-section ul{
+   display: flex;
+   flex-direction: column;
+   padding: 2rem 0px 0px 10rem;
+ }
+}
+
+@media screen and (min-width: 368px) and (max-width: 767px){
+  .skill-section ul li,
+   .tool-section ul li{
+    width: 100%;
+  }
+ }
+
+@media screen and (min-width: 768px)  {
+  .section-body{
+    height: fit-content;
+  }
+}
+
+@media screen and (min-width: 768px)  {
+  .skill-section ul{
+    display: flex;
+    flex-flow: row wrap;
+    padding: 2rem 0px 0px 5rem;
+  }
+}
+
+@media screen and (min-width: 768px)  {
+   .tool-section ul{
+    display: flex;
+    flex-flow: row wrap;
+    padding: 2rem 0px 0px 10.6rem;
+  }
+}
+
+
+@media screen and (min-width: 768px) {
+  .skill-section ul li,
+   .tool-section ul li{
+    width: 30%;
+    padding: 15px 10px 15px 3px; ;
+  }
+ }
+
+
+/******************************************* CAROUSEL SECTION ****************************************/
+
+
+
+ .wordCarousel {
+  font-size: 25px;
+  font-weight: 100;
+  color: #939393;
+  font-family: 'Montserrat',sans-serif;
+  text-transform: uppercase;
+  font-weight: 900;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #333;
+  width: 100%;
+  height: 200px;
+  opacity: 0.7;
+}
+
+.wordCarousel div {
+  position: relative;
+  float: right;
+  height: 100%;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+
+}
+
+.wordCarousel h4{
+  height: fit-content;
+}
+
+.wordCarousel a {
+  height: fit-content;
+  color: antiquewhite;
+  text-decoration: none;
+  transition: all 0.5s ease;
+}
+
+.wordCarousel a:hover {
+  color: white;
+  text-decoration: none;
+  transition: all 0.5s ease;
+}
+
+
+/********* FLEMME DE CHERCHER LES ELEMENTS QUE J'AI CHANGER DANS BOOTSTRAP.MIN.CSS: 
+                                   ATTENTION IL Y PLUSIEURS DÉCLARATIONS SIMILAIRE ! **************/
+
+.navbar-nav .nav-link{
+  color:rgba(0, 0, 0, 0.931);
+   font-weight: bold;
+  }
+
+  .navbar-light .navbar-nav .nav-link{
+    color: rgba(0,0,0,.931);
+    font-weight: 700;
+    justify-content: center;
+  }
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover{
+  color:rgb(255, 255, 255); 
+  font-weight: bold; 
+  transition: all 0.5s ease;
+}
+.navbar-light .navbar-nav .nav-link.disabled{
+  color:rgba(0,0,0,.3);
+  font-weight: bold;
+}
+.navbar-light .navbar-toggler{
+  color:rgba(0,0,0,.5);
+  border-color:rgba(0,0,0,.1)
+}
+.navbar-light .navbar-toggler-icon{
+  background-image:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e")
+}
+
+.navbar-light .navbar-text{
+  color:rgba(0,0,0,.5)
+}
+
+.navbar-light .navbar-text a{
+  color:rgba(0, 0, 0, 0.822);
+}
+
+.navbar-light .navbar-text a:focus,.navbar-light .navbar-text a:hover{
+  color:rgba(0,0,0,.9)
+}
+
+.navbar-dark .navbar-brand{
+  color:#fff
+}
+
+.navbar-dark .navbar-brand:focus,
+.navbar-dark .navbar-brand:hover{
+  color:#fff
+}
+
+.navbar-dark .navbar-nav .nav-link{
+  color:rgba(0, 0, 0, 0.76)
+}
+
+.navbar-dark .navbar-nav .nav-link:focus,
+.navbar-dark .navbar-nav .nav-link:hover{
+  color:rgba(255,255,255,.75)
+}
+
+.navbar-dark .navbar-nav .nav-link.disabled{
+  color:rgba(255,255,255,.25); 
+  font-weight: bold;
+}
+
+button:focus{
+  outline:1px dotted;
+/* outline:5px auto -webkit-focus-ring-color; */
+}
