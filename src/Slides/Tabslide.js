@@ -1,8 +1,8 @@
 import React from 'react';
 import {Slide} from 'react-slideshow-image';
 import '../App.css';
-import tab1 from './images/tab1.png'
-import tab2 from './images/tab2.png'
+import tab1 from './images/tab1.jpg'
+import tab2 from './images/tab2.jpg'
 
 
 

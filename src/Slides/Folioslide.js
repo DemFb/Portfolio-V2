@@ -1,9 +1,9 @@
 import React from 'react';
 import {Slide} from 'react-slideshow-image';
 import '../App.css';
-import folio1 from './images/folio1.png'
-import folio2 from './images/folio2.png'
-import folio3 from './images/folio3.png'
+import folio1 from './images/folio1.jpg'
+import folio2 from './images/folio2.jpg'
+import folio3 from './images/folio3.jpg'
 
 
 const proprietes = {

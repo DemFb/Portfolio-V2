@@ -1,8 +1,8 @@
 import React from 'react';
 import {Slide} from 'react-slideshow-image';
 import '../App.css';
-import speech1 from './images/speech1.png'
-import speech2 from './images/speech2.png'
+import speech1 from './images/speech1.jpg'
+import speech2 from './images/speech2.jpg'
 
 
 

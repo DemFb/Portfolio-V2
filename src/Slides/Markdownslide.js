@@ -1,8 +1,8 @@
 import React from 'react';
 import {Slide} from 'react-slideshow-image';
 import '../App.css';
-import markdown1 from './images/markdown1.png'
-import markdown2 from './images/markdown2.png'
+import markdown1 from './images/markdown1.jpg'
+import markdown2 from './images/markdown2.jpg'
 
 
 

@@ -1,8 +1,8 @@
 import React from 'react';
 import {Slide} from 'react-slideshow-image';
 import '../App.css';
-import todo1 from './images/todo1.png'
-import todo2 from './images/todo2.png'
+import todo1 from './images/todo1.jpg'
+import todo2 from './images/todo2.jpg'
 
 
 

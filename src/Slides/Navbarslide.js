@@ -1,9 +1,9 @@
 import React from 'react';
 import {Slide} from 'react-slideshow-image';
 import '../App.css';
-import navbar1 from './images/navbar1.png'
-import navbar2 from './images/navbar2.png'
-import navbar3 from './images/navbar3.png'
+import navbar1 from './images/navbar1.jpg'
+import navbar2 from './images/navbar2.jpg'
+import navbar3 from './images/navbar3.jpg'
 
 
 const proprietes = {

@@ -7,6 +7,11 @@
   margin: 20px 20px 20px 20px;
 }
 
+@media screen and (min-width: 320px) and (max-width: 600px){
+  .App{
+    margin: 0;
+  }
+}
 /***************************** NavBar section *****************************/
 
 /* NavBar */
@@ -34,6 +39,7 @@
   animation: first 2.5s ease forwards;
   opacity:0;
   animation-delay: 0.6s;
+  white-space: normal;
 }
 
 .navbar-nav {
@@ -130,17 +136,33 @@
   animation-delay: 0.5s;
 }
 
+@media screen and (min-width: 320px) and (max-width: 600px){
+  .jumbo-body {
+    width: max-content;
+    height: fit-content;
+  }
+}
+
+
 @keyframes mymove {
   0%   {top: 0px; opacity: 1;  width: 0px;}
   100% {top: 0px; opacity: 1; width: 100%;}
   }
 
 
-@media sceen and (min-width: 575px){
+/* @media sceen and (min-width: 575px){
   .jumbo-body {
       padding: 1rem 2rem;
   }
-  }
+  } */
+
+  @media sceen and (min-width: 600px){
+    .jumbo-body {
+        padding: 1rem 2rem;
+    }
+    }
+
+  
   
   .banner-text {
     background-color: rgb(192, 188, 188);
@@ -165,6 +187,14 @@
    animation: first 2.5s ease forwards;
    opacity:0;
    animation-delay: 0.6s;
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 600px){
+  .lead {
+    display: flex;
+    flex-flow: row wrap;
+  }
 }
 
 .banner-title {
@@ -192,9 +222,10 @@
   100% {top: 0px; opacity:0.7; transform:translateX(auto);}
 }
 
-@media screen and (min-width: 368px) and (max-width: 600px){
+@media screen and (min-width: 320px) and (max-width: 600px){
   .banner-text {
     width: 100%;
+    height: fit-content;
   }
 }
 
@@ -272,11 +303,17 @@
   display: flex;
   justify-content: center;
   height: fit-content;
+  width: 100%;
   flex-flow: row wrap;
   margin-top: 2.5em;
   margin-bottom: 3rem;
-
 }
+
+/* @media all and (min-width: 320px) and (max-width:600px){
+  .card-liste {
+    width: 100%;
+  }
+} */
 
 .card-corps{
   width: 400px;
@@ -301,10 +338,12 @@
   display: block;
   border-radius: 3px;
   position: absolute;
+  max-width: 100%;
   z-index: -1;
   width: 399px;
 	height: 250px;
 }
+
 .card-content{
   height: 100%;
   display: flex;
@@ -331,8 +370,30 @@
   transition: all 0.5s ease;
 }
 
+@media screen and (max-width: 600px ) {
+  .card-corps{
+    margin: 10px auto;
+  }
+}
+
+/* @media screen and (max-width: 514px ) {
+  .card-corps{
+    margin: 10px auto;
+  }
+} */
 
 /******************************** SLIDESHOW and MODAL SECTION ****************************************/
+
+/* @media screen and (max-width: 514px ) {
+  .containerSlide{
+    width: 100%;
+  }
+  .containerSlide img{
+    height: ;
+    width: ;
+  }
+} */
+
 .modal-body p {
   font-family: 'Montserrat',sans-serif;
   margin: 15px 50px 10px 50px;
@@ -356,7 +417,7 @@
 }
 
 .containerSlide {
-  width: 450px;
+  /* width: 450px; */
   margin: auto;
   padding-top: 10px;
 
@@ -446,6 +507,12 @@
   color: rgb(51, 54, 56);
 }
 
+@media all and (min-width: 320px) and (max-width: 599px){
+  .contact-body p {
+    width: 80%;
+    text-align: center;
+  }
+}
 .contact-body p a {
   color: rgb(51, 54, 56);
   font-weight: bold;
@@ -521,15 +588,31 @@
   font-family: 'Anton', sans-serif;
   color: rgb(73, 103, 202);
 }
- 
 
- @media screen and (min-width: 368px) and (max-width: 767px) {
+
+@media screen and (min-width: 320px) and (max-width: 600px) {
   .section-body{
     height: fit-content;
   }
 }
 
-@media screen and (min-width: 368px) and (max-width: 600px){
+@media all and (min-width: 320px) and (max-width: 599px){
+  .skill-section, .tool-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+ }
+
+ @media all and (min-width: 320px) and (max-width: 599px){
+  .skill-section li, .tool-section li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+ }
+
+@media screen and (min-width: 320px) and (max-width: 600px){
  .skill-section ul{
    display: flex;
    flex-direction: column;
@@ -537,7 +620,7 @@
  }
 }
 
-@media screen and (min-width: 600px) and (max-width: 767px){
+@media screen and (min-width: 600px) and (max-width: 1024px){
   .skill-section ul{
     display: flex;
     flex-direction: column;
@@ -545,24 +628,41 @@
   }
  }
 
-@media screen and (min-width: 368px) and (max-width: 767px){
+@media screen and (min-width: 320px) and (max-width: 600px){
    .tool-section ul{
     display: flex;
     flex-direction: column;
-    padding: 2rem 0px 0px 10rem;
+    padding: 2rem 0px 0px 0px;
   }
  }
 
- @media screen and (min-width: 368px) and (max-width: 600px){
+ /* @media screen and (max-width: 367px){
   .tool-section ul{
    display: flex;
    flex-direction: column;
    padding: 3rem 0px 0px 5rem;;
    
  }
+} */
+
+
+@media screen and (min-width: 320px) and (max-width: 600px){
+  .skill-section h3,
+ .tool-section h3{
+   height: fit-content;
+ }
 }
 
-@media screen and (min-width: 600px) and (max-width: 767px){
+ @media screen and (min-width: 320px) and (max-width: 600px){
+  .tool-section ul{
+   display: flex;
+   flex-direction: column;
+   padding: 3rem 0px 0px 0px;
+   
+ }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1024px){
   .tool-section ul{
    display: flex;
    flex-direction: column;
@@ -570,20 +670,20 @@
  }
 }
 
-@media screen and (min-width: 368px) and (max-width: 767px){
+@media screen and (min-width: 320px) and (max-width: 600px){
   .skill-section ul li,
    .tool-section ul li{
     width: 100%;
   }
  }
 
-@media screen and (min-width: 768px)  {
+@media screen and (min-width: 320px)  {
   .section-body{
     height: fit-content;
   }
 }
 
-@media screen and (min-width: 768px)  {
+@media screen and (min-width: 1024px)  {
   .skill-section ul{
     display: flex;
     flex-flow: row wrap;
@@ -591,7 +691,7 @@
   }
 }
 
-@media screen and (min-width: 768px)  {
+@media screen and (min-width: 1024px)  {
    .tool-section ul{
     display: flex;
     flex-flow: row wrap;
@@ -599,8 +699,7 @@
   }
 }
 
-
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 600px) {
   .skill-section ul li,
    .tool-section ul li{
     width: 30%;
@@ -658,6 +757,47 @@
   transition: all 0.5s ease;
 }
 
+@media all and (min-width: 320px) and (max-width: 360px){
+  .wordCarousel h4, .wordCarousel a{
+    width: fit-content;
+    text-align: center;
+  }
+ }
+
+ @media all and (min-width: 362px) and (max-width: 500px){
+  .wordCarousel h4, .wordCarousel a{
+    width: 80%;
+    text-align: center;
+  }
+ }
+
+/********************* FOOTER SECTION ************************/
+
+.nav-footer{
+  display:inline-block;
+  padding-top:.3125rem;
+  padding-bottom:.3125rem;
+  margin-right:1rem;
+  font-size:1.25rem;
+  line-height:inherit;
+  white-space:normal;
+}
+
+@media all and (min-width: 320px) and (max-width: 500px){
+  .nav-footer p {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+ }
+
+@media all and (min-width: 320px) and (max-width: 500px){
+  .nav-footer p {
+    width: fit-content;
+    text-align: center;
+  }
+ }
+
 
 /********* FLEMME DE CHERCHER LES ELEMENTS QUE J'AI CHANGER DANS BOOTSTRAP.MIN.CSS: 
                                    ATTENTION IL Y PLUSIEURS DÉCLARATIONS SIMILAIRE ! **************/
@@ -704,7 +844,8 @@
 }
 
 .navbar-dark .navbar-brand{
-  color:#fff
+  color:#fff;
+  white-space: normal;
 }
 
 .navbar-dark .navbar-brand:focus,

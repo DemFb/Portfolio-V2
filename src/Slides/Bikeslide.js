@@ -1,9 +1,9 @@
 import React from 'react';
 import {Slide} from 'react-slideshow-image';
 import '../App.css';
-import bike1 from './images/bike1.png'
-import bike2 from './images/bike2.png'
-import bike3 from './images/bike3.png'
+import bike1 from './images/bike1.jpg'
+import bike2 from './images/bike2.jpg'
+import bike3 from './images/bike3.jpg'
 
 
 const proprietes = {

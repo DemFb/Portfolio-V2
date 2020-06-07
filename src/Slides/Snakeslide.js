@@ -1,9 +1,9 @@
 import React from 'react';
 import {Slide} from 'react-slideshow-image';
 import '../App.css';
-import snake1 from './images/snake1.png'
-import snake2 from './images/snake2.png'
-import snake3 from './images/snake3.png'
+import snake1 from './images/snake1.jpg'
+import snake2 from './images/snake2.jpg'
+import snake3 from './images/snake3.jpg'
 
 
 const proprietes = {
