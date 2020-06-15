@@ -40,7 +40,6 @@ const About = () => {
                     <li>CSS <span>Flexbox/Bootstrap</span></li>
                     <li>JavaScript <span>Es6+/Jquery</span></li>
                     <li>React <span>React-bootstrap</span></li>
-                    <li>React Native</li>
                     <li>Node Js <span>Express</span></li> 
                     <li>PHP</li>
                     <li>Java</li>
