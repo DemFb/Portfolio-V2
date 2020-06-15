@@ -38,11 +38,12 @@ const About = () => {
                 <ul>
                     <li>HTML</li>
                     <li>CSS <span>Flexbox/Bootstrap</span></li>
-                    <li>JavaScript <span>Es6+</span></li>
-                    <li>Jquery</li>
+                    <li>JavaScript <span>Es6+/Jquery</span></li>
                     <li>React <span>React-bootstrap</span></li>
                     <li>React Native</li>
                     <li>Node Js <span>Express</span></li> 
+                    <li>PHP</li>
+                    <li>Java</li>
                     <li>MongoDB</li>
                     <li>Heroku</li>
                 </ul>
