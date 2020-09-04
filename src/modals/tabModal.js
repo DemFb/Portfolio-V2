@@ -20,7 +20,7 @@ function ModalTab(tabShow) {
         <Modal.Body>
           <Tabslide/>
           <p>
-          Creation d'une table d'effets sonnores avec et l'apparation d'une bulle de la même couleur que la touche que vous avez cliquer.
+          Création d'une table d'effets sonores avec et l'apparition d'une bulle de la même couleur que la touche que vous avez cliquer.
           </p>
           <div className="button-section">
               <div className="buttonGit">
