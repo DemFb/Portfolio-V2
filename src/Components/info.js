@@ -11,22 +11,24 @@ const About = () => {
             <div style={{display:'flex', height:'fit-content'}}>
                 <div className='contact-body'>
                     <p style={{width:'80%'}}>
-                        Salut, je m'appelle Fabala
+                        Bienvenue sur mon site, je m'appelle Fabala
                         <br/>
                         <br/>
-                        Je suis étudiant à la <a href='https://codingfactory.fr' target='_blank' rel="noopener noreferrer">Coding Factory by ITESCIA</a> en alternance et été 
-                        formé à <a href='https://www.lacapsule.academy' target='_blank' rel="noopener noreferrer">La Capsule</a>, j'aime 
-                        beaucoup apprendre à réaliser des sites design et attractifs et de réaliser des projets du côté serveur.
+        
+                        Je suis un jeune sportif dynamique et passionné de nouvelles technologies, en quête de challenge à relever sur des projets novateurs. 
+                        Curieux et passionné de développement web, j'aime réaliser des sites design et des projets créatifs.
+        
                         <br/>
-                        <br/>
-                          Passionné de sports, de nouvelles technologies et de programmation en quête
-                          de challenges à relever sur des projets novateurs et à la découverte de nouvelles 
-                          technologies à apprendre. Je suis très adaptable et motivé par l'apprentissage.
-                        <br/>
-                        <br/>
-                        Je suis capable d'utiliser différentes technologies comme HTML, CSS, JavaScript ou 
-                        Node JS, mais aussi les frameworks tel que React pour le Front-End et Express pour 
-                        le Back-end.
+        
+                        J’ai décidé de me lancer à l’aventure pour devenir développeur web à<a href='https://www.lacapsule.academy' target='_blank' rel="noopener noreferrer">La Capsule</a> 
+                        puis à la <a href='https://codingfactory.fr' target='_blank' rel="noopener noreferrer">Coding Factory by ITESCIA</a> en alternance avec un rythme d'une semaine en
+                        entreprise et d'une semaine à l'école hors période des vacances scolaires où c'est à temps plein en entreprise.
+                           
+                        <br/>         
+      
+                        Profitez de la prime exceptionnelle de 5000€ à 8000€ que l'état offre pour le recrutement d'un apprenti. Un apprenti vous coûterait de 0€ à 175€ 
+                        selon son âge par mois la première année.
+
                     </p>
                 </div>
             </div>
