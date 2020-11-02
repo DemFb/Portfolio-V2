@@ -11,7 +11,7 @@ const About = () => {
             <div style={{display:'flex', height:'fit-content'}}>
                 <div className='contact-body'>
                     <p style={{width:'80%'}}>
-                        Bienvenue sur mon site, je m'appelle Fabala
+                        Bienvenue sur mon site,
                         <br/>
                         <br/>
         
@@ -19,12 +19,14 @@ const About = () => {
                         Curieux et passionné de développement web, j'aime réaliser des sites design et des projets créatifs.
         
                         <br/>
+                        <br/>
         
-                        J’ai décidé de me lancer à l’aventure pour devenir développeur web à<a href='https://www.lacapsule.academy' target='_blank' rel="noopener noreferrer">La Capsule</a> 
+                        J’ai décidé de me lancer à l’aventure pour devenir développeur web à <a href='https://www.lacapsule.academy' target='_blank' rel="noopener noreferrer">La Capsule</a>  
                         puis à la <a href='https://codingfactory.fr' target='_blank' rel="noopener noreferrer">Coding Factory by ITESCIA</a> en alternance avec un rythme d'une semaine en
                         entreprise et d'une semaine à l'école hors période des vacances scolaires où c'est à temps plein en entreprise.
                            
-                        <br/>         
+                        <br/> 
+                        <br/>
       
                         Profitez de la prime exceptionnelle de 5000€ à 8000€ que l'état offre pour le recrutement d'un apprenti. Un apprenti vous coûterait de 0€ à 175€ 
                         selon son âge par mois la première année.
