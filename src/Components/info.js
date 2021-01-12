@@ -15,21 +15,18 @@ const About = () => {
                         <br/>
                         <br/>
         
-                        Je suis un jeune sportif dynamique et passionné de nouvelles technologies, en quête de challenge à relever sur des projets novateurs. 
-                        Curieux et passionné de développement web, j'aime réaliser des sites design et des projets créatifs.
+                        Je suis étudiant en BTS Développement Informatique en alternance à la Coding Factory. Je suis disponible dès maintenant avec un rythme d'une semaine en entreprise, d'une semaine à l'école et à temps plein au mois de mars.
+
         
                         <br/>
                         <br/>
         
-                        J’ai décidé de me lancer à l’aventure pour devenir développeur web à <a href='https://www.lacapsule.academy' target='_blank' rel="noopener noreferrer">La Capsule</a>  
-                        puis à la <a href='https://codingfactory.fr' target='_blank' rel="noopener noreferrer">Coding Factory by ITESCIA</a> en alternance avec un rythme d'une semaine en
-                        entreprise et d'une semaine à l'école hors période des vacances scolaires où c'est à temps plein en entreprise.
+                        Le fait de me recruter en apprentissage vous permettrai d’avoir au sein de votre équipe un apprenti motivé, qui apprend vite, prêt à relever les challenges et développer des fonctionnalités. 
                            
                         <br/> 
                         <br/>
       
-                        Profitez de la prime exceptionnelle de 5000€ à 8000€ que l'état offre pour le recrutement d'un apprenti. Un apprenti vous coûterait de 0€ à 175€ 
-                        selon son âge par mois la première année.
+                        Grâce à l’aide de 8000€ donnée par l'État, je ne vous couterai que 175 euros par mois la première année, ce qui vous permet d’avoir une personne passionnée qui prendra en expérience, en compétence à moindre coût dans votre équipe.
 
                     </p>
                 </div>
